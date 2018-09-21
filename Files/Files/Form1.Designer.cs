@@ -43,10 +43,10 @@
             // FileSelectionButton
             // 
             this.FileSelectionButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.FileSelectionButton.Location = new System.Drawing.Point(361, 13);
-            this.FileSelectionButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FileSelectionButton.Location = new System.Drawing.Point(481, 16);
+            this.FileSelectionButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FileSelectionButton.Name = "FileSelectionButton";
-            this.FileSelectionButton.Size = new System.Drawing.Size(125, 22);
+            this.FileSelectionButton.Size = new System.Drawing.Size(167, 27);
             this.FileSelectionButton.TabIndex = 0;
             this.FileSelectionButton.Text = "Выбрать файл";
             this.FileSelectionButton.UseVisualStyleBackColor = true;
@@ -61,49 +61,45 @@
             // FileNameLabel
             // 
             this.FileNameLabel.AutoSize = true;
-            this.FileNameLabel.Location = new System.Drawing.Point(12, 18);
-            this.FileNameLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FileNameLabel.Location = new System.Drawing.Point(16, 22);
             this.FileNameLabel.Name = "FileNameLabel";
-            this.FileNameLabel.Size = new System.Drawing.Size(101, 13);
+            this.FileNameLabel.Size = new System.Drawing.Size(132, 17);
             this.FileNameLabel.TabIndex = 1;
             this.FileNameLabel.Text = "Выбранный файл: ";
             // 
             // FileNameLabelShown
             // 
             this.FileNameLabelShown.AutoEllipsis = true;
-            this.FileNameLabelShown.Location = new System.Drawing.Point(114, 18);
-            this.FileNameLabelShown.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.FileNameLabelShown.Location = new System.Drawing.Point(152, 22);
             this.FileNameLabelShown.Name = "FileNameLabelShown";
-            this.FileNameLabelShown.Size = new System.Drawing.Size(238, 13);
+            this.FileNameLabelShown.Size = new System.Drawing.Size(317, 16);
             this.FileNameLabelShown.TabIndex = 2;
             this.FileNameLabelShown.Text = "Нет";
             // 
             // ElapsedListCreationTimeLabel
             // 
             this.ElapsedListCreationTimeLabel.AutoSize = true;
-            this.ElapsedListCreationTimeLabel.Location = new System.Drawing.Point(12, 74);
-            this.ElapsedListCreationTimeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ElapsedListCreationTimeLabel.Location = new System.Drawing.Point(16, 91);
             this.ElapsedListCreationTimeLabel.Name = "ElapsedListCreationTimeLabel";
-            this.ElapsedListCreationTimeLabel.Size = new System.Drawing.Size(133, 13);
+            this.ElapsedListCreationTimeLabel.Size = new System.Drawing.Size(169, 17);
             this.ElapsedListCreationTimeLabel.TabIndex = 4;
             this.ElapsedListCreationTimeLabel.Text = "Время создания списка:";
             // 
             // ElapsedListCreationTime
             // 
             this.ElapsedListCreationTime.AutoSize = true;
-            this.ElapsedListCreationTime.Location = new System.Drawing.Point(149, 76);
-            this.ElapsedListCreationTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ElapsedListCreationTime.Location = new System.Drawing.Point(199, 94);
             this.ElapsedListCreationTime.Name = "ElapsedListCreationTime";
-            this.ElapsedListCreationTime.Size = new System.Drawing.Size(0, 13);
+            this.ElapsedListCreationTime.Size = new System.Drawing.Size(0, 17);
             this.ElapsedListCreationTime.TabIndex = 5;
             // 
             // WordSearchButton
             // 
             this.WordSearchButton.Enabled = false;
-            this.WordSearchButton.Location = new System.Drawing.Point(361, 41);
-            this.WordSearchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WordSearchButton.Location = new System.Drawing.Point(481, 50);
+            this.WordSearchButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WordSearchButton.Name = "WordSearchButton";
-            this.WordSearchButton.Size = new System.Drawing.Size(125, 22);
+            this.WordSearchButton.Size = new System.Drawing.Size(167, 27);
             this.WordSearchButton.TabIndex = 6;
             this.WordSearchButton.Text = "Найти слово";
             this.WordSearchButton.UseVisualStyleBackColor = true;
@@ -112,10 +108,10 @@
             // WordSearchBox
             // 
             this.WordSearchBox.Enabled = false;
-            this.WordSearchBox.Location = new System.Drawing.Point(15, 43);
-            this.WordSearchBox.Margin = new System.Windows.Forms.Padding(2);
+            this.WordSearchBox.Location = new System.Drawing.Point(20, 53);
+            this.WordSearchBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WordSearchBox.Name = "WordSearchBox";
-            this.WordSearchBox.Size = new System.Drawing.Size(337, 20);
+            this.WordSearchBox.Size = new System.Drawing.Size(448, 22);
             this.WordSearchBox.TabIndex = 7;
             this.WordSearchBox.Text = "Введите слово для поиска";
             this.WordSearchBox.Enter += new System.EventHandler(this.WordSearchBox_Enter);
@@ -123,10 +119,10 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(387, 101);
-            this.label1.Margin = new System.Windows.Forms.Padding(3, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(516, 124);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
+            this.label1.Size = new System.Drawing.Size(131, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "Слово не найдено";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -135,18 +131,21 @@
             // 
             this.WordListBox.Enabled = false;
             this.WordListBox.FormattingEnabled = true;
-            this.WordListBox.Location = new System.Drawing.Point(15, 126);
+            this.WordListBox.ItemHeight = 16;
+            this.WordListBox.Location = new System.Drawing.Point(20, 155);
+            this.WordListBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.WordListBox.Name = "WordListBox";
-            this.WordListBox.Size = new System.Drawing.Size(470, 186);
+            this.WordListBox.Size = new System.Drawing.Size(625, 228);
             this.WordListBox.TabIndex = 9;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label2.Location = new System.Drawing.Point(298, 101);
+            this.label2.Location = new System.Drawing.Point(397, 124);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 13);
+            this.label2.Size = new System.Drawing.Size(107, 17);
             this.label2.TabIndex = 10;
             this.label2.Text = "Статус поиска:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -154,26 +153,29 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 101);
+            this.label3.Location = new System.Drawing.Point(16, 124);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 13);
+            this.label3.Size = new System.Drawing.Size(146, 17);
             this.label3.TabIndex = 11;
             this.label3.Text = "Время поиска слова:";
             // 
             // ElapsedWordSearchTime
             // 
             this.ElapsedWordSearchTime.AutoSize = true;
-            this.ElapsedWordSearchTime.Location = new System.Drawing.Point(133, 101);
+            this.ElapsedWordSearchTime.Location = new System.Drawing.Point(177, 124);
+            this.ElapsedWordSearchTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ElapsedWordSearchTime.Name = "ElapsedWordSearchTime";
-            this.ElapsedWordSearchTime.Size = new System.Drawing.Size(0, 13);
+            this.ElapsedWordSearchTime.Size = new System.Drawing.Size(0, 17);
             this.ElapsedWordSearchTime.TabIndex = 12;
             // 
             // WordListBoxClearButton
             // 
             this.WordListBoxClearButton.Enabled = false;
-            this.WordListBoxClearButton.Location = new System.Drawing.Point(361, 69);
+            this.WordListBoxClearButton.Location = new System.Drawing.Point(481, 85);
+            this.WordListBoxClearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.WordListBoxClearButton.Name = "WordListBoxClearButton";
-            this.WordListBoxClearButton.Size = new System.Drawing.Size(125, 22);
+            this.WordListBoxClearButton.Size = new System.Drawing.Size(167, 27);
             this.WordListBoxClearButton.TabIndex = 13;
             this.WordListBoxClearButton.Text = "Очистить список";
             this.WordListBoxClearButton.UseVisualStyleBackColor = true;
@@ -181,9 +183,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 324);
+            this.ClientSize = new System.Drawing.Size(663, 399);
             this.Controls.Add(this.WordListBoxClearButton);
             this.Controls.Add(this.ElapsedWordSearchTime);
             this.Controls.Add(this.label3);
@@ -199,7 +201,7 @@
             this.Controls.Add(this.FileSelectionButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Поиск слов";
             this.ResumeLayout(false);
