@@ -55,25 +55,6 @@ namespace Files {
             FileSelectionDialog.ShowDialog();
         }
 
-        /*private void FileReadButton_Click(object sender, EventArgs e) {
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            string FileContents = File.ReadAllText(FileSelectionDialog.FileName, Encoding.GetEncoding(1251));
-            string[] FileWords = FileContents.Split(' ', '\n', '\r', '!', ',', '?', '—', '.', '-', ':', ';');
-            List<string> list = new List<string>();
-            foreach (string s in FileWords) {
-                if (!list.Contains(s) && s != "") {
-                    list.Add(s);
-                }
-            }
-            WordList = list;
-            sw.Stop();
-            ElapsedTime.Text = sw.ElapsedTicks.ToString() + " тиков";
-            WordSearchButton.Enabled = true;
-            WordSearchBox.Enabled = true;
-            WordListBox.Enabled = true;
-        }*/
-
         /// <summary>
         /// Поиск слова в списке WordList и вывод найденных слов в WordListBox.
         /// </summary>
