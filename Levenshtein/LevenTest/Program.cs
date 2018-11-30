@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LevenTest {
     class Program {
         static void Main(string[] args) {
-            Levenshtein.Levenshtein.WriteDistance("Каракатица", "Корогодина");
+            Levenshtein.Levenshtein.WriteDistance("Москва", "Плотва");
         }
     }
 }
